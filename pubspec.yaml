@@ -28,7 +28,9 @@ dependencies:
   image_picker: ^0.6.7+14
   flutter_number_picker: ^0.0.8
   extras:
-    path: ../extras
+    git:
+      url: git://github.com/dhaval15/extras.git
+      ref: master
   flutter:
     sdk: flutter
 

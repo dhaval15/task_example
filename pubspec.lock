@@ -67,9 +67,11 @@ packages:
   extras:
     dependency: "direct main"
     description:
-      path: "../extras"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "5a962816efffdb9ab59c1b5b2eeb53e07d973a4a"
+      url: "git://github.com/dhaval15/extras.git"
+    source: git
     version: "0.0.1"
   fake_async:
     dependency: transitive
